@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+html, body{
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+:root {
+    --cor-fundo: black;
+    --cor-hover: rgb(19, 113, 201);
+    --cor-primaria: white;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+.dp-menu ul ul {
+    text-align: center;
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 200px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+}
+
+main{
+    background: url("/img/teku.jpg") center ; 
+    background-size: cover; 
+    height: 120vh;
+}
+
+::-webkit-scrollbar{
+	width:15px;
+	background-color:black;
+	border:1px solid black;}
+		
+::-webkit-scrollbar-thumb{
+	background-color: rgb(19, 113, 201);
+	border-left:2px solid black; 
+		}
+			
+.new,.search,.order,.food-one,.food-two,.food-three,.breakfast,.flavor{
+			border-radius:5px;
+		}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 250px;
+    margin-left: 20%;
+}
+
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 2rem;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#rodape{
+    background-color: black;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+#icons{
+    margin-left: 28%;
+}
+
+#icone{
+    margin-left: 70%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+
+}
+footer ul{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: white;
+    font-size: 2rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#icons{
+    margin-left: 30%;
+}
+
+img{
+    margin-bottom: 0px;
+    margin-left: 430px;
+    width: 35%; 
+    border: 3px solid rgb(19, 113, 201);
+}
+
+h1{
+    margin-left: 500px;
+    color: white;
+    font-size: 45px;
+
+}
+
+
+h2{
+    text-shadow: -2px -2px 2px rgb(255, 255, 255), 
+    -2px 2px 2px rgb(255, 255, 255),                    
+     2px -2px 2px rgb(255, 255, 255),                  
+      2px 2px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+h3{
+    text-shadow: -2px -2px 2px black, 
+    -2px 2px 2px black,                    
+     2px -2px 2px black,                  
+      2px 2px 2px black;
+    margin-left: 1150px;
+    color: white;
+    font-size: 35px;
+}   

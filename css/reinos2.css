@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+html, body{
+    height: 100%;
+}
+
+:root {
+    --cor-fundo: black;
+    --cor-hover: rgb(255, 255, 255);
+    --cor-primaria: white;
+    text-shadow: -1px -1px 1px black, 
+                 -1px 1px 1px black,                    
+                  1px -1px 1px black,                  
+                  1px 0px 1px black;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+.dp-menu ul ul {
+    text-align: center;
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 200px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+}
+
+::-webkit-scrollbar{
+	width:15px;
+	background-color:black;
+	border:1px solid black;}
+		
+::-webkit-scrollbar-thumb{
+	background-color: rgb(255, 255, 255);
+	border-left:2px solid black; 
+		}
+			
+.new,.search,.order,.food-one,.food-two,.food-three,.breakfast,.flavor{
+			border-radius:5px;
+		}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 250px;
+    margin-left: 20%;
+}
+
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 2rem;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#rodape{
+    background-color: black;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+#icons{
+    margin-left: 28%;
+}
+
+#icone{
+    margin-left: 70%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+
+}
+footer ul{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: white;
+    font-size: 2rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#icons{
+    margin-left: 30%;
+}
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+main{
+    background: url("/img/wallpaperhotwheels.png") no-repeat center center; 
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+h1{
+    margin-bottom: 550px;
+    margin-left: -600px;
+    text-shadow: -2px -2px 2px black, 
+    -2px 2px 2px black,                    
+     2px -2px 2px black,                  
+      2px 2px 2px black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+}
+
+.slider{
+    margin-top: 10%;
+    margin-left: 42.5%;
+    overflow-x: hidden;
+    width: 600px;
+    scroll-behavior: smooth;
+}
+
+.slide{
+     position: relative;
+}
+
+main p{
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-shadow: -2px -2px 2px black, 
+    -2px 2px 2px black,                    
+     2px -2px 2px black,                  
+      2px 2px 2px black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.slide p:hover{
+    color: rgba(255, 255, 255, 0.849);
+    opacity: 0.9;
+
+}
+
+.content{
+    display: flex;
+    width: fit-content;
+}
+
+
+.content img{
+    width: 600px;
+    height: 300px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+
+button:first-of-type{
+    left: -45px;
+    transform: translate(450%, 75%);
+}
+
+button:last-of-type{
+    right: 50px;
+    transform: translate(550%, 75%);
+}
+
+button:hover{
+    background-image: linear-gradient(to right, rgb(0, 238, 255) , rgb(255, 0, 255));
+}
+
+.length-dots {
+    margin-left: 50%;
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+    transform: translate(-50%, 200%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.dot.current{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
+}
+
